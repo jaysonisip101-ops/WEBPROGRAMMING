@@ -1,0 +1,68 @@
+.notice-card {
+    padding:lrem;
+    border-radius: 10px;
+}
+#msg{
+    background: purple;
+    padding: lrem;
+
+border-radius: 10px;
+color: black;
+}
+.notice-board
+{
+    background: silver;
+    padding: lrem;
+    border-radius: 10px;
+}
+
+a:hover{
+    color: navy;
+    background-color: white;
+    text-decoration: underline;
+font-size: 50px;
+}
+.btn{
+    background-color: burlywood;
+    color: white;
+    border: none;
+
+}
+body{ 
+    border: 5px solid lightblue;
+    margin: 50px;
+    padding: 30px;
+
+    display: grid;
+    grid-template-areas: 
+    
+    "header header header"
+    "menu content form"
+    "footer footer footer";
+}
+ 
+nav {
+    padding: lrem;
+    grid-area: menu;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+  grid-area: header;
+  text-align: center;
+}
+
+main {
+  grid-area: content;
+  display: flex;
+}
+
+footer{
+  grid-area: footer;
+  text-align: center;
+}
+
+form {
+  grid-area: form;
+}
